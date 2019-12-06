@@ -1,0 +1,11 @@
+{
+    "manifest_version": 1,
+
+    "name": "Translation Randomizer",
+    "version": "1.0.0",
+    "description": "Randomly translates all words on a page",
+
+    "content_scripts": [{
+        
+    }]
+}
