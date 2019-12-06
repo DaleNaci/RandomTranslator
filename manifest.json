@@ -1,11 +1,13 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 2,
 
     "name": "Translation Randomizer",
     "version": "1.0.0",
     "description": "Randomly translates all words on a page",
 
     "content_scripts": [{
-        
+        "css": ["styles.css"],
+        "js": ["content.js"],
+        "matches": ["https://blog.lateral.io/*"]
     }]
 }
